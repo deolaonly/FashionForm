@@ -1,0 +1,200 @@
+body {
+	border: solid 2px white;
+	background-color: grey;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#header1 {
+	text-align: left;
+}
+#list {
+	margin-left: 750px;
+	margin-top: 20px;
+}
+
+#main {
+	display: inline-flex;
+	padding: 15px;
+	height: 80px;
+}
+
+.header-bg {
+	background-color: rgb(155, 22, 104);
+	width: 97.6%;
+}
+
+#list ul {
+	list-style-type: none;
+}
+#list ul li {
+	/* display: inline-block; */
+	float: left;
+}
+
+#list ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#list ul li a:hover {
+	color: brown;
+	background-color: yellow;
+}
+
+#paragraph1 {
+	border: solid 2px white;
+	width: 350px;
+	height: 300px;
+	margin-left: 35px;
+	background-color: red;
+}
+
+.paragraph2 {
+	border: solid 2px white;
+	width: 350px;
+	height: 300px;
+	margin-left: 30px;
+	background-color: purple;
+}
+
+#paragraph3 {
+	border: solid 2px white;
+	width: 350px;
+	height: 300px;
+	margin-left: 30px;
+	background-color: brown;
+}
+.box {
+	border: solid 2px white;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.section1 {
+	display: inline-flex;
+}
+
+.header1 {
+	color: white;
+}
+
+.intro {
+	color: white;
+}
+.intro h1 {
+	text-align: center;
+}
+
+p {
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer {
+	color: white;
+}
+footer {
+	text-align: center;
+	background-color: rgb(155, 22, 104);
+	padding: 20px;
+	height: 60px;
+}
+#paragraph1:hover {
+	position: relative;
+	top: -4px;
+}
+.paragraph2:hover {
+	position: relative;
+	top: -4px;
+}
+#paragraph3:hover {
+	position: relative;
+	top: -4px;
+}
+#main {
+	display: inline-flex;
+}
+
+.menu-scpacing {
+	margin-right: 1.2em;
+}
+#paragraph1 {
+	color: white;
+}
+.paragraph2 {
+	color: white;
+}
+#paragraph3 {
+	color: white;
+}
+#paragraph1 h4 {
+	text-align: center;
+	text-decoration: underline;
+}
+.paragraph2 h4 {
+	text-align: center;
+	text-decoration: underline;
+}
+#paragraph3 h4 {
+	text-align: center;
+	text-decoration: underline;
+}
+#paragraph1 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.paragraph2 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#paragraph3 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.contacts {
+	border: solid 3px white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#sub {
+	margin-left: 550px;
+}
+
+#ab {
+	font-size: medium;
+	font-style: oblique;
+	text-align: center;
+}
+
+#add {
+	text-align: left;
+	width: 20%;
+	margin-left: -500px;
+}
+#con {
+	text-align: right;
+	width: 40%;
+}
+#sun-form {
+	display: inline-flex;
+}
+
+.contact-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.header-center {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.text-size {
+	font-size: 20px;
+	margin-top: 90px;
+}
