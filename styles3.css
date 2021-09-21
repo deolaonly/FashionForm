@@ -1,0 +1,186 @@
+  body, ul, li, h1, h2, a{
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+  }
+  
+  header{
+       background-color: green;
+       padding: 20px;
+       text-align: center;
+       width: 1500px; 
+       height: 60px;
+       position:fixed;
+       z-index: 1;
+       top: 0;
+       left: 0;
+   
+   }
+   header h1{
+       color: white;
+       border: 8px solid white;
+       padding: 6px 12px;
+       display: inline-block;
+       border-radius: 36px; 
+     }
+
+
+.banner{
+    position: relative;
+    max-width:100% ;
+
+
+}
+.banner .welcome{
+     background-color: rgb(78, 109, 202);
+     color: white;
+     padding: 30px;
+     position: absolute;
+    left: 0;
+    top: 30%;
+
+}
+.banner h2{
+    font-size: 40px;
+}
+.banner h2 span{
+    font-size: 40px; 
+}
+.main-nav{
+    background-color: rgb(224, 214, 214);
+    padding: 15px;
+    
+
+}
+.main-nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 36 px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    
+}
+.main-nav li a.join1{
+       color: green;
+
+}
+article{
+    font-size: 15px;
+}
+.join{
+    font-size: 15px;
+}
+.main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: green;
+    font-size: 25px;
+}
+article p{
+    line-height: 20px;
+    color: grey;
+} 
+.images{
+    text-align: center;
+    margin: 40px 0;
+
+
+}
+.join2{
+    background: rgb(224, 214, 214);
+      text-align: center;
+      padding: 60px 20px;
+      color: grey;
+}
+.join2 h2{
+    font-size: 30px;
+}
+form input{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+.join2 p{
+    font-size: 10px;
+}
+footer{
+    background: green;
+    color: white;
+    padding: 10px;
+    text-align: center ;
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    background-color: gray;
+    padding: 3px;
+} 
+.images li:hover{
+    position: relative;
+    top: -4px;
+}  
+form input:valid{
+    border: 3px solid rgb(68, 243, 68);
+}
+form input:invalid{
+    border: 3px solid red;
+}
+@media screen and (max-width:1400px){
+    .banner .welcome h2{ 
+     font-size: 60px;    
+
+ }
+ .main-nav li{
+     font-size: 18px;
+
+ }
+
+     
+ }
+
+ @media screen and (max-width:960px){
+    .banner .welcome h2{ 
+     font-size: 40px;    
+
+ }
+
+     
+ }
+ 
+ @media screen and (max-width:700px){
+    .banner .welcome { 
+    position: relative; 
+      text-align: center;  
+      padding: 10px;
+
+ }
+ .banner .welcome br{
+     display: none;
+ }
+ .banner .welcome h2{ 
+    font-size: 25px;    
+ 
+ }
+ .banner .welcome span{
+     font-size: 1em;
+ }
+.images li{
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+}
+}
